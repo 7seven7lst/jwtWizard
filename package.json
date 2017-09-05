@@ -1,0 +1,28 @@
+{
+  "name": "thredup",
+  "version": "1.0.0",
+  "description": "**Build an CLI for generating Json Web Tokens (JWT's)**",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "coverage": "nyc --reporter=html --reporter=text mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.10.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "copy-paste": "^1.3.0",
+    "inquirer": "^3.2.3",
+    "istanbul": "^0.4.5",
+    "jsonwebtoken": "^7.4.3",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
+    "sinon": "^3.2.1"
+  }
+}
